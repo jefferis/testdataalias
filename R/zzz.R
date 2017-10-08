@@ -1,3 +1,7 @@
 .onLoad <- function (libname, pkgname) {
-  # landmarks <- landmarks.2017
+  # set up default landmarks object
+  assign('landmarks',
+         envir = parent.env(environment()),
+         testdataalias::landmarks.2017)
+
 }
