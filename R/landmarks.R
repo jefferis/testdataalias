@@ -20,5 +20,5 @@ NULL
 # Updating testdataalias documentation
 # Loading testdataalias
 # Error in eval(exprs[i], envir) (from landmarks.R#20) : object 'landmarks.2017' not found
-landmarks <- landmarks.2017
+# landmarks <- landmarks.2017
 
