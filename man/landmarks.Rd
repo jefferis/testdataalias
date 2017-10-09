@@ -7,6 +7,14 @@
 \alias{landmarks}
 \title{Landmarks for transformations between different assemblies of a refernce
 brain.}
+\format{An object of class \code{matrix} with 10 rows and 3 columns.}
+\usage{
+landmarks.2016
+
+landmarks.2017
+
+landmarks
+}
 \description{
 \code{landmarks.2016} landmarks set for 2016 brain
 
@@ -14,3 +22,4 @@ brain.}
 
 \code{landmarks} always refers to the latest landmark set
 }
+\keyword{datasets}
